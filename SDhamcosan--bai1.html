@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+bai1
+ let myColor = ["Red","Green","White","Black"];
+   Color = myColor.join()
+ document.write(Color)
+
+
+
+let A = 'The Quick Brown Fox';
+var UPPER = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+var LOWER = 'abcdefghijklmnopqrstuvwxyz';
+var result = new Array();
+
+for(var x=0; x<A.length; x++)
+{
+    if(UPPER.indexOf(A[x]) !== -1)
+    {
+        result.push(A[x].toLowerCase());
+    }
+    else if(LOWER.indexOf(A[x]) !== -1)
+    {
+        result.push(A[x].toUpperCase());
+    }
+    else
+    {
+        result.push(A[x]);
+    }
+}
+document.write(result.join(''));
+
+</script>
+</body>
+</html>
